@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>About (Broken)</title>
+    <title>About</title>
 
     <!-- INTENTIONALLY BROKEN: wrong stylesheet path and filename -->
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
   </head>
   <body>
     <header class="site-header">
@@ -17,7 +17,7 @@
           <!-- INTENTIONALLY BROKEN: filenames/paths are not correct -->
           <a href="index.html">Home</a>
           <a href="about.html" aria-current="page">About</a>
-          <a href="pages/contact.html">Contact</a>
+          <a href="../pages/contact.html">Contact</a>
         </nav>
       </div>
     </header>
@@ -25,10 +25,16 @@
     <main class="container">
       <section class="card">
         <h2>About Me</h2>
+
+        <!-- INTENTIONALLY BROKEN: wrong image path and filename -->
+        <img class="profile-image" src="../assets/img/DADOLE_CCE (1).JPG"
+        alt="A simple profile icon" width="160"
+          height="160" />
+
         <p>
-          Hi! I'm Alex, a frontend developer who enjoys turning designs into
-          clean, accessible web pages. I focus on semantic HTML, responsive
-          layouts, and keeping projects organized so they are easy to maintain.
+          Hi! I'm Trishya, an aspiring develop from Xavier University Ateneo de Cagayan.
+          I aspire to do better everyday and learn more about web development. I am currently learning
+          HTML and CSS, and I am excited to continue improving my skills in this field.
         </p>
 
         <h3>Skills</h3>
@@ -39,22 +45,17 @@
           <li>Debugging broken links, images, and styles</li>
         </ul>
 
-        <!-- INTENTIONALLY BROKEN: wrong image path and filename -->
-        <img
-          class="profile-image"
-          src="./img/profile.png"
-          alt="A simple profile icon"
-          width="160"
-          height="160"
-        />
       </section>
 
       <section class="card">
         <h2>Project Note</h2>
         <p>
-          This portfolio project is intentionally broken for an assessment. Some
-          pages are nested in folders and some files are in the wrong place.
-          Fixing paths may require using <code>../</code>.
+          This portfolio website was created as part of the Web Systems Assessment — Front-End Challenge 2.0.
+          The purpose of this project is to demonstrate my understanding of HTML and CSS, as well as my ability
+          to debug and fix common issues that may arise in web development. I have intentionally included some
+          broken links and images in this project to showcase my debugging skills and attention to detail. I am
+          excited to continue learning and improving my skills in web development, and I look forward to taking
+          on more challenges in the future.
         </p>
       </section>
     </main>

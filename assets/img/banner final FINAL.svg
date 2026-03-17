@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="240" viewBox="0 0 800 240" role="img" aria-label="Banner graphic">
-  <rect width="800" height="240" fill="#fafafa"/>
-  <rect x="20" y="20" width="760" height="200" rx="14" fill="#fff" stroke="#ddd"/>
-  <path d="M60 160 C 160 80, 260 200, 360 120 S 560 160, 740 90" fill="none" stroke="#333" stroke-width="4"/>
-  <text x="60" y="80" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif" font-size="28" fill="#333">Project Cleanup Challenge</text>
-  <text x="60" y="115" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif" font-size="16" fill="#555">Fix filenames, folders, and relative paths</text>
-</svg>
